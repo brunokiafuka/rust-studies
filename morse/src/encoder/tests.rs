@@ -1,5 +1,3 @@
-// TODO: Fix tests route file :)
-
 #[cfg(test)]
 mod tests {
     use crate::encoder;
@@ -11,6 +9,6 @@ mod tests {
         assert_eq!(encoder::encode("a").unwrap(), "._");
         assert_eq!(encoder::encode("b").unwrap(), "_...");
         assert_eq!(encoder::encode("c").unwrap(), "_._.");
-        assert_eq!(encoder::encode("dd").unwrap(), "_..");
+        assert_eq!(encoder::encode("d").unwrap(), "_..");
     }
 }

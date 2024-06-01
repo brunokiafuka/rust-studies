@@ -53,3 +53,6 @@ pub fn encode(text: &str) -> Result<String, &str> {
         Err("Error")
     }
 }
+
+#[cfg(test)]
+mod tests;
